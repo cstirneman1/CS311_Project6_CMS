@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: maroon;
+    color: #fff;
+    align-items: center;
+    padding-left: 2%;
+}
+
+footer{
+    background-color: maroon;
+    color: white;
+    align-items: center;
+    padding-left: 2%;
+    height: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    background-color: rgb(198, 193, 193);
+}
+
+#top-bar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 15pt;
+    margin: 0;
+    padding-left: 2%;
+    height: 10%;
+}
+
+#labels,#total-asset-label,#total-liabilities-label,#total-position-label{
+    padding-left: 2%;
+}
+
+#asset-input,#investment-input,#intangibles-input,#liabilities-input,#longterm-input {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    padding-right: 25%;
+}
+
+#totalCurrentAssetsInput,#totalInvestmentsInput,#totalIntangiblesInput, #totalLiabilitiesInput,#totalLongTermInput{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    padding-right: 25%;
+    padding-top: 2%;
+    font-size: 10pt;
+}

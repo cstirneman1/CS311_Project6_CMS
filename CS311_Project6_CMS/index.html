@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellarmine Balance Sheet Calculator</title>
+    <link rel="stylesheet" href="css/myStyles.css">
+  </head>
+<body>
+    <header>
+        <h3>Bellarmine Financials - Balance Sheet Calculator</h3>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="assets">
+                <h5 id="top-bar">Assets</h5>
+                <h5 id="labels">Current Assets</h5>
+                <div class="assets" id="asset-input">
+                    <button id="addCurrentAssets">Add Current Assets</button>
+                </div>
+                <label id="totalCurrentAssetsInput" style="display: none;">Total Current Assets:</label>
+                <h5 id="labels">Investment Property & Equipment</h5>
+                <div class="assets" id="investment-input">
+                    <button id="addCurrentInvestments">Add Investment Property & Equipment</button>
+                </div>
+                <label id="totalInvestmentsInput" style="display: none;">Total Investments:</label>
+                <h5 id="labels">Intangibles</h5>
+                <div class="assets" id="intangibles-input">
+                    <button id="addIntangibles">Add Intangibles</button>
+                </div>
+                <label id="totalIntangiblesInput" style="display: none;">Total Intangibles:</label>
+            </div>
+            <div class="liabilities" id="liabilities-labels">
+                <h5 id="top-bar">Liabilities</h5>
+                <h5 id="labels">Current Liabilities</h5>
+                <div class="liabilities" id="liabilities-input">
+                    <button id="addLiabilities">Add Current Liabilities</button>
+                </div>
+                <label id="totalLiabilitiesInput" style="display: none;">Total Current Liabilities:</label>
+                <h5 id="labels">Long-Term Liabilities</h5>
+                <div class="liabilities" id="longterm-input">
+                    <button id="addLongterm">Add Long-Term Liabilities</button>
+                </div>
+                <label id="totalLongTermInput" style="display: none;">Total Long Term Liabilities:</label>
+                <h3 id="labels">Total Position</h3>
+                <button id="calculatePosition" style="display: none;">Calculate Position</button>
+                <h5 id="total-asset-label">Total Assets:</h5>
+                <h5 id="total-liabilities-label">Total Liabilities:</h5>
+                <h5 id="total-position-label">Position:</h5>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h6>Bellarmine, 2023</h6>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
